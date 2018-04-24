@@ -1,0 +1,45 @@
+.top img {
+    height: 3.46rem;
+}
+.goods-tit {
+    color: #fff;
+    font-size: 0.26rem;
+    padding: 0.2rem 0;
+    text-indent: 0.52rem;
+    border-bottom: 1px solid #40454b;
+}
+.goods-tit p {
+    line-height: 0.5rem;
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    font-size: 0.26rem;
+    background-color: #2c2f36;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footer > div > div {
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 0.24rem 0;
+}
+.btn {
+    background: #ec911b;
+}
+.cont-div {
+    color: #fff;
+}
+.info-tit {
+    font-size: 0.3rem;
+    line-height: 1.3rem;
+    text-align: center;
+}
+.cont-div p {
+    font-size: 0.26rem;
+    text-indent: 0.4rem;
+    line-height: 1rem;
+}

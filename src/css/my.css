@@ -1,0 +1,45 @@
+.header > div > div{
+    height: 2.54rem;
+    text-align: center;
+    background: yellowgreen
+}
+.header > div > div > img {
+    width: 1.26rem;
+    height: 1.26rem;
+    border-radius: 50%;
+}
+.header > div > div > span {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.3rem;
+    color:#fff;
+}
+.item-box > div:first-child {
+    margin: 0.22rem 0;
+    border-bottom: none;
+}
+.item-box > div:first-child > div {
+    display: inline-block;
+    width: 3.3rem;
+    height: 1.6rem;
+    font-size: 0.3rem;
+    line-height: 1.6rem;
+    color: #fff;
+    text-align: center;
+    margin-left: 0.18rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0.09rem;
+}
+.item-box > div  {
+    color: #fff;
+    font-size: 0.3rem;
+    line-height: 0.9rem;
+    border-bottom: 0.5px solid #dedede;
+}
+.item-box > div > span {
+    margin-left: 0.18rem;
+}
+.item-box > div > span:last-child {
+    float: right;
+    margin-right: 0.18rem;
+}

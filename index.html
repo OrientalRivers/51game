@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <title>51电竞</title>
+    <script type="text/javascript">
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 720 * 100 + 'px';
+    </script>
+    <link rel="stylesheet" type="text/css" href="./src/css/base.css" />
+    <link rel="stylesheet" href="./src/css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+</head>
+
+<body>
+    <section class="swiper">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./src/image/banner.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./src/image/banner.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <div class="content-box">
+            <div class="room">
+                <span id="room_name">车轮战</span>
+            </div>
+            <div class="mode">
+                <div id="mode_name">TPP</div>
+            </div>
+            <div class="room_id">
+                <div id="room_id">
+                    <span class="small-tit">房间名称:</span>
+                    <p>JQ2020202020 CHE/LEE</p>
+                </div>
+            </div>
+            <div class="game-map">
+                <div id="game-map">
+                    <span class="small-tit">地图:</span>
+                    <p>海岛</p>
+                </div>
+            </div>
+            <div class="game-num">
+                <div id="game_num">
+                    <span class="small-tit">本局报名人数</span>
+                </div>
+                <div class="main-number">
+                    <span class="tens">0</span>
+                    <span class="units">0</span>
+                </div>
+            </div>
+            <div class="agreement">
+                <div id="">
+                    <input type="checkbox">
+                    <span class="small-tit">我同意</span>
+                    <p>《天梯赛事规则》</p>
+                </div>
+            </div>
+            <div class="btn">
+                <div>
+                    <button>开始匹配</button>
+                </div>
+            </div>
+            <div class="remind">
+                <div>
+                    <div>
+                        <p>满
+                            <span>100人</span>立即开始</p>
+                        <p>本场最迟
+                            <span>24:00:00</span>开赛</p>
+                    </div>
+                </div>
+            </div>
+            <div class="remind02">
+                <div>
+                    <div>
+                        <p>积分变换及其他</p>
+                        <p>请拨打110</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="clearfix">
+            <div>
+                <a href="./index.html">
+                    <img src="./src/image/index.png" alt="">
+                    <span>主页</span>
+                </a>
+            </div>
+            <div>
+                <a href="./exchange.html">
+                    <img src="./src/image/exchange2.png" alt="">
+                    <span>兑换</span>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="./src/image/ranking2.png" alt="">
+                    <span>排行</span>
+                </a>
+            </div>
+            <div>
+                <a href="./my.html">
+                    <img src="./src/image/my2.png" alt="">
+                    <span>我的</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./src/js/jquery.min.js"></script>
+<script src="./src/js/swiper-3.4.2.jquery.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        //autoplay: true,//可选选项，自动滑动
+        delay: 7000
+    })
+</script>
+
+</html>

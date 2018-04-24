@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+    background-color: #2f3239;
+}
+.swiper-container {
+    height: 2.34rem;
+}
+.swiper-slide > img {
+    height: 100%;
+}
+.content-box {
+    background-color: #2f3239;
+}
+.content-box > .room {
+    font-size: 0.26rem;
+    text-align: center;
+    padding-top: 0.28rem;
+    padding-bottom: 0.1rem;
+}
+.content-box > .room > span {
+    /* width: 2.34rem; */
+    /* height: 0.66rem; */
+    color: #efe22b;  
+    padding: 0.15rem 0.72rem;
+    line-height: 0.26rem;
+    border: 2px solid #efe22b;
+    border-radius: 0.33rem;
+    margin: 0 auto;
+}
+
+.content-box > .mode {
+    text-align: center;
+    font-size: 0.18rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+}
+.content-box > .mode > div {
+    display: inline-block;
+    color: #fff;
+    padding: 0.08rem 0.16rem;
+    background-color: #cf0200;
+    margin: 0 auto;
+}
+.content-box > .room_id {
+    font-size: 0.26rem;
+    text-align: center;
+    padding: 0.09rem 0;
+}
+.content-box .small-tit {
+    color: #797d87;  
+}
+.content-box p {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 0.24rem;
+}
+.content-box > .game-map {
+    font-size: 0.26rem;
+    text-align: center;
+    padding: 0.2rem 0;
+}
+.content-box > .game-num {
+    font-size: 0.26rem;
+    text-align: center;  
+}
+.content-box > #game-num {
+    padding: 0.1rem 0;
+}
+.content-box .main-number {
+    padding: 0.14rem 0;
+}
+.main-number span {
+    font-size: 0.7rem;
+    color: #fff;
+    line-height: 0.7rem;
+    padding: 0.24rem 0.34rem;
+    background-color: #000;
+    border-radius: 0.09rem;
+}
+.main-number .tens {
+    margin-right: 0.1rem
+}
+.main-number .units {
+    margin-left: 0.1rem
+}
+.agreement {
+    font-size: 0.26rem;
+    text-align: center;
+}
+.agreement > div {
+    padding: 0.14rem;
+}
+.agreement input {
+    height: 0.26rem;
+    width: 0.26rem;
+    vertical-align: middle;
+}
+
+.btn {
+    font-size: 0.26rem;
+    text-align: center;
+}
+.btn > div {
+    padding: 0.3rem 0;
+}
+.btn button {
+    background-color: #efe22b;
+    padding: 0.3rem 1.8rem;
+    border-radius: 0.09rem;
+}
+
+.remind, .remind02 {
+    font-size: 0.26rem;
+    text-align: center;
+}
+.remind > div {
+    padding: 0.2rem 0;
+}
+.remind > div span {
+    color: #efe22b;
+}
+.remind02 {
+    font-size: 0.16rem;
+}
+.remind02 > div {
+    padding: 0.1rem 0;
+}
+.remind02 > div > div {
+    display: inline-block;
+    padding: 0.1rem 0.22rem;
+    background-color: #000;
+    border-radius: 0.48rem;
+}
+.remind02 > div > div > p {
+    font-size: 0.16rem;
+}
+

@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    font-size: 0.16rem;
+    background: url('../image/bg.png')
+}
+section .title {
+    font-size: 0.26rem;
+    text-align: center;
+    padding-top: 0.4rem;
+    padding-bottom: 0.3rem;
+}
+section .title > div {
+    color: #fff;
+}
+.goods-list > div > div {
+    float: left;
+    width: 50%;
+    
+}
+.goods-list > div > div >  div {
+    height: 3rem;
+    text-align: center;
+    background-color: #fff;
+    margin: 0.05rem 0.14rem;
+    position: relative;
+} 
+.goods-list > div > div >  div .goods-price {
+    width: 100%;
+    height: 0.36rem;
+    color: #1ac218;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0.55rem;
+}
+.goods-list > div > div >  div .goods-name {
+    width: 100%;
+    height: 0.55rem;
+    line-height: 0.55rem;
+    color: #fff;
+    background: url('../image/bg.png');
+    margin-bottom: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+} 
